@@ -1,3 +1,5 @@
+# Ou struktur for WindWave proskjektet til UIB
+
 # definerer $RootOU 
 $rootOU = "OU=windwave,DC=windwave,DC=ad" 
 # lager Root OU / WindWave
@@ -23,7 +25,7 @@ New-ADOrganizationalUnit -Name "Groups" -Path $adminOU
 
 
 
-Deaktiver Accedential deletion
+#Deaktiver Accedential deletion
 
 # Define the root OU
 $rootOU = "OU=Bedrift,DC=joker,DC=ad"
